@@ -12,13 +12,13 @@ public class Alphabetic_transformation {
 			if (Alphabet>=65 && Alphabet<=90) {
 				Alphabet += 32;
 				System.out.println(Alphabet);
-				alphabet.close();
+				alphabet.close();		// 林籍贸府啊瓷
 			} else if (Alphabet>=97 && Alphabet<=122) {
 				Alphabet -= 32;
 				System.out.println(Alphabet);
 			} else {
 				System.out.println("Invalid input");
-				alphabet.close();
+				alphabet.close();		// 林籍贸府啊瓷
 			}
 		}
 	}
