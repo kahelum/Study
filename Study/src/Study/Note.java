@@ -8,8 +8,6 @@ public class Note {
 		
 		Scanner in = new Scanner(System.in);
 		float a = in.nextFloat();
-		System.out.printf("%f",a);
-		System.out.println();
-		System.out.print(a);
+		System.out.printf("%.2f", a);
 	}
 }
