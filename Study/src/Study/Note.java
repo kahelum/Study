@@ -9,6 +9,5 @@ public class Note {
 		Scanner in = new Scanner(System.in);
 		float a = in.nextFloat();
 		System.out.printf("%.2f", a);
-		// code up 
 	}
 }
