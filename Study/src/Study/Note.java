@@ -7,8 +7,10 @@ public class Note {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);
-		float a = in.nextFloat();
-		System.out.printf("%.2f", a);
+		String RRN = in.next();
+		String data[] = RRN.split("-");
+		
+		System.out.println(data[0]+data[1]);
 		
 	}
 }
