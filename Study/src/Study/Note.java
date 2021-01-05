@@ -10,6 +10,5 @@ public class Note {
 		float a = in.nextFloat();
 		System.out.printf("%.2f", a);
 		
-		// z
 	}
 }
