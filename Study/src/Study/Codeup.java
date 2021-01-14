@@ -8,9 +8,13 @@ public class Codeup {
 
 		Scanner in = new Scanner(System.in);
 		String time = in.next();
-		String arr[] = time.split(":");
+		String arr[] = time.split("\\.");
 		
-		System.out.println(Integer.parseInt(arr[1]));
+		String year = arr[0];
+		String month = arr[1];
+		String day = arr[2];
+		
+		System.out.println(day+"-"+month+"-"+year);
 		
 	}
 
