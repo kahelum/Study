@@ -7,9 +7,9 @@ public class Codeup {
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
-		int ASCII = in.nextInt();
-		char trans = (char)ASCII;
-		System.out.println(trans);
+		long a = in.nextLong();
+		long b = in.nextLong();
+		System.out.println(a+b);
 		
 	}
 
