@@ -7,8 +7,12 @@ public class Codeup {
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
-		char input = in.next().charAt(0);
+		int a = in.nextInt();
+		int b = in.nextInt();
+		int c = in.nextInt();
 		
-		System.out.println((char)(input+1));
+		System.out.println(a+b+c);
+		System.out.printf("%.1f", ((double)a+(double)b+(double)c)/3);
+		
 	}
 }
