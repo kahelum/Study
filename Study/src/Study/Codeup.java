@@ -10,9 +10,11 @@ public class Codeup {
 		int a = in.nextInt();
 		int b = in.nextInt();
 		
-		a = a << b;
-		
-		System.out.println(a);
+		if (a != b) {
+			System.out.println(1);
+		} else {
+			System.out.println(0);
+		}
 		
 	}
 }
