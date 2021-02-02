@@ -10,8 +10,9 @@ public class Codeup {
 		
 		long a = in.nextLong();
 		long b = in.nextLong();
+		long c = in.nextLong();
 		
-		System.out.println(a^b);
+		System.out.println((a<b ? a:b)<c ? (a<b ? a:b):c);
 		
 	}
 }
