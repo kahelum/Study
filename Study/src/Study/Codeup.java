@@ -8,11 +8,27 @@ public class Codeup {
 
 		Scanner in = new Scanner(System.in);
 		
-		long a = in.nextLong();
-		long b = in.nextLong();
-		long c = in.nextLong();
+		int a = in.nextInt();
+		int b = in.nextInt();
+		int c = in.nextInt();
 		
-		System.out.println((a<b ? a:b)<c ? (a<b ? a:b):c);
+		if (a%2==0) {
+			System.out.println("even");
+		} else {
+			System.out.println("odd");
+		}
+		
+		if (b%2==0) {
+			System.out.println("even");
+		} else {
+			System.out.println("odd");
+		}
+		
+		if (c%2==0) {
+			System.out.println("even");
+		} else {
+			System.out.println("odd");
+		}
 		
 	}
 }
