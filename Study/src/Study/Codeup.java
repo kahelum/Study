@@ -8,26 +8,16 @@ public class Codeup {
 
 		Scanner in = new Scanner(System.in);
 		
-		int a = in.nextInt();
-		int b = in.nextInt();
-		int c = in.nextInt();
+		int score = in.nextInt();
 		
-		if (a%2==0) {
-			System.out.println("even");
-		} else {
-			System.out.println("odd");
-		}
-		
-		if (b%2==0) {
-			System.out.println("even");
-		} else {
-			System.out.println("odd");
-		}
-		
-		if (c%2==0) {
-			System.out.println("even");
-		} else {
-			System.out.println("odd");
+		if (score>=90 && score<=100) {
+			System.out.println("A");
+		} else if (score>=70 && score<=89) {
+			System.out.println("B");
+		} else if (score>=40 && score<=69) {
+			System.out.println("C");
+		} else if (score>=0 && score<=39) {
+			System.out.println("D");
 		}
 		
 	}
