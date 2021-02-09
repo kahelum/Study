@@ -5,18 +5,17 @@ import java.util.Scanner;
 public class Codeup {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-
-		int size = sc.nextInt();
-		int[] num = new int[size];
+		Scanner in = new Scanner(System.in);
 		
-		for (int i = 0; i < num.length; i++) {
-			num[i] = sc.nextInt();
+		int num = in.nextInt();
+		int i = 0;
+		while(true) {
+			if(i > num) {
+				break;
+			}
+			System.out.println(i);
+			i++;
 		}
-		for (int i = 0; i < num.length; i++) {
-			System.out.println(num[i]);
-		}
-		
 	}
 }
 
