@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class Codeup {
 
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
 		
-		int num = in.nextInt();
-		int i = 0;
-		while(true) {
-			if(i > num) {
-				break;
-			}
-			System.out.println(i);
-			i++;
+		Scanner sc = new Scanner(System.in);
+
+		long a = sc.nextLong();
+		long b = sc.nextLong();
+		long c = sc.nextLong();
+		long d = sc.nextLong();
+		long result = a;
+		
+		for(int i=1; i<d; i++) {
+			result = (result*b)+c;
 		}
+		System.out.print(result);
 	}
 }
-
-//
