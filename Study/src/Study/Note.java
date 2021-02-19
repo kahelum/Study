@@ -14,6 +14,7 @@ public class Note {
 
 /*
 	°Ë»ö
+	method
 	nextLine();
 	charAt(0);
 */
