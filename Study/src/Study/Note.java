@@ -17,4 +17,5 @@ public class Note {
 	method
 	nextLine();
 	charAt(0);
+	Array[]
 */
