@@ -19,4 +19,5 @@ public class Note {
 	charAt(0);
 	Array[]
 	private get()/set()
+	final
 */
