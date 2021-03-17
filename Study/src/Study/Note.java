@@ -22,6 +22,5 @@ public class Note {
 	final
 	Overloading / Overriding
 	method
-	final
-	
+	new
 */
